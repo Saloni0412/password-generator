@@ -71,7 +71,10 @@ if(inputLower == false && inputUpper == false && inputNumeric == false &&
   }
 
   
-
+  for(let i = 1; i < inputLength; i++) {
+    var newRandom = Math.floor(Math.random() * newCriteria.length);
+     password += newCriteria[newRandom];
+   }
 
 return password;
 }
