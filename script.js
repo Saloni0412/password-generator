@@ -2,9 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 var inputLength;
 
-
-
-
 // Calling function generatePassword to create a random password
 function generatePassword() {
 
@@ -18,7 +15,7 @@ function generatePassword() {
   // calling function to input the lenght of the password
   userInput();
   function userInput() {
-    inputLength = prompt("Enter the lenght of the password between 8 - 128 characters", "only numeric form");
+    inputLength = prompt("Choose the lenght of the password between 8 - 128 characters", "only numeric value");
 
     if (inputLength < 8 || inputLength > 128 || isNaN(inputLength)) {
       alert("is not a valid value. Please select lenght between 8 to 128");
@@ -27,14 +24,14 @@ function generatePassword() {
   }
 
   // promping for the creteria 
-  var inputLower = confirm("Would you like lower case in your password");
+  var inputLower = confirm("Would you like lower case in your password [a-z]");
 
   if (inputLower == true) {
     newCriteria += lowerCase;
     console.log(newCriteria);
   }
 
-  var inputUpper = confirm("Would you like upper case in your password");
+  var inputUpper = confirm("Would you like upper case in your password [A-Z]");
 
   if (inputUpper == true) {
     newCriteria += upperCases;

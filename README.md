@@ -12,7 +12,7 @@ N/A
 
 This is a website which generates random passwords with the given criteria that user enters. When one click on generate password button, they will be prompted for the required length of the password. They can select from 8 to 128 character long password. Then after they will be prompted for few more criteria which includes having uppercase, lowercase, numeric value and special characters. One needs to atleast select one of the mentioned criteria. Once password is created it will be printed on the screen. Screenshot of the generated password is linked below.
 
-![photo of the website](./Assets/saloni0412.github.io_password-generator_.png)
+![photo of the website](./Assets/saloni0412.github.io_password-generator_%20(1).png)
 ## Credits
 
 [WS Schools](https://www.w3schools.com/js/) - I used this to get some clear view on the javascript properties
