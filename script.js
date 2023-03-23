@@ -15,10 +15,10 @@ function generatePassword() {
   // calling function to input the lenght of the password
   userInput();
   function userInput() {
-    inputLength = prompt("Choose the lenght of the password between 8 - 128 characters", "only numeric value");
+    inputLength = prompt("Choose the length of the password between 8 - 128 characters", "only numeric value");
 
     if (inputLength < 8 || inputLength > 128 || isNaN(inputLength)) {
-      alert("is not a valid value. Please select lenght between 8 to 128");
+      window.alert("is not a valid value. Please select lenght between 8 to 128");
       userInput();
     }
   }
